@@ -1,0 +1,41 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /*largura da tela do usuario*/
+    background-color: #6f3e99;
+    width: 100%;   
+}
+
+#header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+#header ul {
+    display: block;
+}
+
+#header li {
+    display: inline;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+#header li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+}
+
+#header li a:hover{
+    color: #eabb45;
+}
+
+#header li .current{
+    color: #eabb45;
+}
