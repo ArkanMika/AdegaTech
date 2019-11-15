@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./style.css"
-import Swal from 'sweetalert'
+//import Swal from 'sweetalert'
 import { Link } from 'react-router-dom' 
 
 export default class Sidebar extends Component {
